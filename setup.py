@@ -19,8 +19,8 @@ def get_requirements()->List[str]:
 setup(
     name= "flight",
     version= "0.0.1",
-    author= "rahul",
-    author_email= "rahul.amberia83@gmail.com",
+    author= "Tirth",
+    author_email= "tirthc58@gmail.com",
     packages= find_packages(), # find_packages() will find sensor folder because in contains __init__.py
     install_requires = get_requirements()
 )
